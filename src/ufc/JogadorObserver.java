@@ -1,6 +1,6 @@
 package ufc;
 
-public class JogadorObserver implements ufc.Observer {
+public class JogadorObserver implements IObserver {
 
     private double dinheiro;
 

@@ -2,33 +2,37 @@ package ufc;
 
 import java.util.ArrayList;
 
-public class Jogador implements Subject {
+public class Jogador implements ISubject {
 
-    private ArrayList<Observer> observers;
+    private ArrayList<IObserver> IObservers;
     private double dinheiro;
 
     public Jogador() {
-        observers = new ArrayList<>();
+        IObservers = new ArrayList<>();
     }
 
     @Override
-    public void register(Observer observer) {
-        observers.add(observer);
+    public void register(IObserver IObserver) {
+        IObservers.add(IObserver);
 
     }
 
     @Override
-    public void unregister(Observer observer) {
-        int observerIndex = observers.indexOf(observer);
-        observers.remove(observerIndex);
+    public void unregister(IObserver IObserver) {
+        int observerIndex = IObservers.indexOf(IObserver);
+        IObservers.remove(observerIndex);
     }
 
 
     @Override
     public void notifyObserver() {
-        for (Observer observer: observers) {
-            observer.update(dinheiro);
+        for (IObserver IObserver : IObservers) {
+            IObserver.update(dinheiro);
         }
+    }
+
+    public double getDinheiro() {
+        return dinheiro;
     }
 
     public void setDinheiro(double dinheiro) {

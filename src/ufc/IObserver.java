@@ -3,7 +3,7 @@ package ufc;
 /**
  * quero ser avisado sobre
  */
-public interface Observer {
+public interface IObserver {
 
     public void update(double dinheiro);
 }
