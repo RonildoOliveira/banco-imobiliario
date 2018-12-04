@@ -2,5 +2,5 @@ package ufc.carta;
 
 public enum TipoCarta {
 
-    SORTE, REVES;
+    SORTE, REVES, IMOVEL, VAZIA;
 }

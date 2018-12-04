@@ -23,5 +23,9 @@ public class Main {
 
         Monetiza monetiza = new Monetiza();
         monetiza.atualizaDinheiro(jogador1, cartaSorte);
+
+        Casa casa = new Casa(TipoAcaoCasa.SORTE_REVES, 2);
+        casa.getTipoAcaoCasa().getAcao(jogador1);
+
     }
 }

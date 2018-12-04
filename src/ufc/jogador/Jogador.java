@@ -8,12 +8,16 @@ import java.util.ArrayList;
 public class Jogador implements ISubject {
 
     private ArrayList<IObserver> IObservers;
+    private ArrayList<Propriedade> propriedades;
     private double dinheiro;
     private int numeroDuplas;
+    private int posicao;
 
     public Jogador() {
         numeroDuplas = 0;
         IObservers = new ArrayList<>();
+        propriedades = new ArrayList<>();
+        this.posicao = 0;
     }
 
     @Override
@@ -41,5 +45,17 @@ public class Jogador implements ISubject {
     public void setDinheiro(double dinheiro) {
         this.dinheiro = dinheiro;
         notifyObserver();
+    }
+
+    public ArrayList<Propriedade> getPropriedades() {
+        return propriedades;
+    }
+
+    public int getPosicao() {
+        return posicao;
+    }
+
+    public void setPosicao(int posicao) {
+        this.posicao = posicao;
     }
 }
