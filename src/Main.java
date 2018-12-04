@@ -21,7 +21,7 @@ public class Main {
         cartaSorte.setNome("Sorte");
         cartaSorte.setValor(344);
 
-        Monetiza monetiza = new Monetiza();
+        ControllerMonetiza monetiza = new ControllerMonetiza();
         monetiza.atualizaDinheiro(jogador1, cartaSorte);
         **/
 

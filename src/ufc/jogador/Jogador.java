@@ -9,15 +9,18 @@ public class Jogador implements ISubject {
 
     private ArrayList<IObserver> IObservers;
     private ArrayList<Propriedade> propriedades;
+
     private double dinheiro;
+    //contar a qut dados repetidos
     private int numeroDuplas;
     private int posicao;
 
     public Jogador() {
+        dinheiro = 800;
         numeroDuplas = 0;
         IObservers = new ArrayList<>();
         propriedades = new ArrayList<>();
-        this.posicao = 0;
+        posicao = 0;
     }
 
     @Override

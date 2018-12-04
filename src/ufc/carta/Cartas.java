@@ -1,7 +1,5 @@
 package ufc.carta;
 
-import ufc.TipoAcaoCasa;
-
 import java.util.ArrayList;
 
 public class Cartas {
@@ -18,6 +16,7 @@ public class Cartas {
         cartas = new ArrayList<>();
         cartaFactory = new CartaFactory();
         criaTodasCartasSorte();
+        criaTodasCartasMovimento();
     }
 
     private void criaTodasCartasSorte(){
@@ -41,11 +40,6 @@ public class Cartas {
                 "Você saiu de férias e se hospedou na casa de um amigo. Você economizou o hotel.",
                 45));
 
-        //MOVIMENTO
-        cartas.add(cartaFactory.criarCarta(TipoCarta.SORTE,
-                "Avance até o ponto de partida e...",
-                200));
-
         cartas.add(cartaFactory.criarCarta(TipoCarta.SORTE,
                 "Você trocou seu carro usado com um amigo e ainda saiu lucrando.",
                 50));
@@ -66,7 +60,7 @@ public class Cartas {
                 "Você apostou com os parceiros deste jogo e ganhou.",
                 50));
 
-        //MOVIMENTO
+        //INICIO
         cartas.add(cartaFactory.criarCarta(TipoCarta.SORTE,
                 "Saída livre da prisão, (conserve este cartão para quando lhe for preciso ou negocie-o em qualquer ocasião, por preço a combinar).",
                 0));
@@ -82,6 +76,35 @@ public class Cartas {
         cartas.add(cartaFactory.criarCarta(TipoCarta.SORTE,
                 "Você tirou o primeiro lugar no Torneio de Tênis do seu clube. Parabéns!",
                 100));
+    }
+
+    private void criaTodasCartasReves(){
+        cartas.add(cartaFactory.criarCarta(TipoCarta.REVES,
+                "Papai os livros do ano passado não servem mais, preciso de livros novos.",
+                -40));
+
+        cartas.add(cartaFactory.criarCarta(TipoCarta.REVES,
+                "Seus filhos já vão para a escola. Pague a primeira mensalidade.",
+                -50));
+
+        cartas.add(cartaFactory.criarCarta(TipoCarta.REVES,
+                "Seu clube está ampliando as piscinas. Os sócios devem contribuir.",
+                -25));
+
+        cartas.add(cartaFactory.criarCarta(TipoCarta.REVES,
+                "Você acaba de receber a comunicação do Imposto de Renda.",
+                -50));
+    }
+
+    private void criaTodasCartasMovimento(){
+        //INICIO
+        cartas.add(cartaFactory.criarCarta(TipoCarta.INICIO,
+                "Avance até o ponto de partida e...",
+                200));
+
+        cartas.add(cartaFactory.criarCarta(TipoCarta.PRISAO,
+                "Vá para a prisão sem receber nada. (talvez eu lhe faça uma visita...)",
+                0));
     }
 
     public static ArrayList<Carta> getCartas() {

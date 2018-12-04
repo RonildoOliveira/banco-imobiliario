@@ -4,6 +4,7 @@ public class Propriedade {
 
     private int position;
     private String nome;
+    private boolean livre;
 
     public Propriedade() { }
 
@@ -13,5 +14,9 @@ public class Propriedade {
 
     public String getNome() {
         return nome;
+    }
+
+    public boolean isLivre() {
+        return livre;
     }
 }

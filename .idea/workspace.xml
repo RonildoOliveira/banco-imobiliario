@@ -2,30 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e8e2851-415e-43b5-a7f2-eca8bdeb04ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ufc/Casas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ufc/carta/Cartas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/Casa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/Tabuleiro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/TipoAcaoCasa$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/TipoAcaoCasa$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/TipoAcaoCasa$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/TipoAcaoCasa$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/TipoAcaoCasa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/TipoAcaoCasa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/Carta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/Carta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/CartaFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/CartaReves.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/CartaSorte.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/TipoCarta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/jogador/Jogador.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/jogador/Jogador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/CartaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/CartaFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/CartaReves.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/CartaReves.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/CartaSorte.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/CartaSorte.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/Cartas.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/Cartas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/TipoCarta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/banco-imobiliario/ufc/carta/TipoCarta.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ufc/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufc/Casa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ufc/Tabuleiro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ufc/Monetiza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufc/ControllerMonetiza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ufc/TipoAcaoCasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufc/TipoAcaoCasa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ufc/carta/Carta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufc/carta/Carta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ufc/carta/CartaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufc/carta/CartaFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ufc/carta/CartaReves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufc/carta/CartaReves.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ufc/carta/CartaSorte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufc/carta/CartaSorte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ufc/carta/Cartas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufc/carta/Cartas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ufc/carta/TipoCarta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufc/carta/TipoCarta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ufc/jogador/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufc/jogador/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ufc/jogador/Propriedade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ufc/jogador/Propriedade.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,66 +32,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ufc/carta/Carta.java">
+        <entry file="file://$PROJECT_DIR$/src/ufc/jogador/RepositorioPropriedades.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            <state relative-caret-position="180">
+              <caret line="12" column="47" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="47" />
               <folding>
-                <element signature="e#616#617#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ufc/carta/CartaSorte.java">
+        <entry file="file://$PROJECT_DIR$/src/ufc/Casa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ufc/carta/CartaReves.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="65" />
-              <folding>
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ufc/carta/CartaFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ufc/Casas.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="49" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#357#358#0" expanded="true" />
                 <element signature="e#421#422#0" expanded="true" />
@@ -106,57 +67,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ufc/carta/Cartas.java">
+        <entry file="file://$PROJECT_DIR$/src/ufc/jogador/Propriedade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="225">
+              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3214#3215#0" expanded="true" />
-                <element signature="e#3243#3244#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ufc/Casa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-              <folding>
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#317#318#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ufc/TipoAcaoCasa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ufc/carta/TipoCarta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-              <folding>
-                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,12 +86,15 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Singleton" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>visita</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -205,20 +125,21 @@
         <option value="$PROJECT_DIR$/src/ufc/IObserver.java" />
         <option value="$PROJECT_DIR$/src/ufc/IMonetiza.java" />
         <option value="$PROJECT_DIR$/src/ufc/jogador/JogadorObserver.java" />
-        <option value="$PROJECT_DIR$/src/ufc/jogador/Propriedade.java" />
         <option value="$PROJECT_DIR$/src/ufc/jogador/RepositorioPropriedades.java" />
-        <option value="$PROJECT_DIR$/src/ufc/jogador/Jogador.java" />
         <option value="$PROJECT_DIR$/src/ufc/Tabuleiro.java" />
         <option value="$PROJECT_DIR$/src/ufc/Casas.java" />
-        <option value="$PROJECT_DIR$/src/ufc/Casa.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/ufc/carta/CartaSorte.java" />
         <option value="$PROJECT_DIR$/src/ufc/carta/CartaReves.java" />
-        <option value="$PROJECT_DIR$/src/ufc/carta/TipoCarta.java" />
         <option value="$PROJECT_DIR$/src/ufc/carta/CartaFactory.java" />
+        <option value="$PROJECT_DIR$/src/ufc/carta/CartaMovimento.java" />
         <option value="$PROJECT_DIR$/src/ufc/carta/Cartas.java" />
+        <option value="$PROJECT_DIR$/src/ufc/carta/TipoCarta.java" />
         <option value="$PROJECT_DIR$/src/ufc/carta/Carta.java" />
+        <option value="$PROJECT_DIR$/src/ufc/jogador/Jogador.java" />
         <option value="$PROJECT_DIR$/src/ufc/TipoAcaoCasa.java" />
+        <option value="$PROJECT_DIR$/src/ufc/Casa.java" />
+        <option value="$PROJECT_DIR$/src/ufc/jogador/Propriedade.java" />
       </list>
     </option>
   </component>
@@ -236,7 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,13 +181,6 @@
               <item name="banco-imobiliario" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ufc" type="462c0819:PsiDirectoryNode" />
-              <item name="carta" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="banco-imobiliario" type="b2602c69:ProjectViewProjectNode" />
-              <item name="banco-imobiliario" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ufc" type="462c0819:PsiDirectoryNode" />
               <item name="jogador" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -280,11 +194,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543925821835" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543954889381" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -340,7 +255,7 @@
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5235435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23463687" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,7 +272,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -369,25 +284,11 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ufc/util/CircularArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ufc/MonetizaReves.java" />
-    <entry file="file://$PROJECT_DIR$/src/ufc/Monetiza.java">
+    <entry file="file://$PROJECT_DIR$/src/ufc/ControllerMonetiza.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ufc/ISubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -412,13 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ufc/jogador/JogadorObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ufc/Dado.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -426,47 +320,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ufc/jogador/Propriedade.java">
+    <entry file="file://$PROJECT_DIR$/src/ufc/Tabuleiro.java" />
+    <entry file="file://$PROJECT_DIR$/src/ufc/carta/CartaMovimento.java" />
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="375">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ufc/carta/Cartas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
           <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#4161#4162#0" expanded="true" />
+            <element signature="e#4190#4191#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ufc/carta/Carta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ufc/carta/CartaReves.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ufc/carta/CartaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ufc/carta/CartaSorte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ufc/carta/TipoCarta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ufc/ISubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ufc/jogador/JogadorObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ufc/jogador/Jogador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+        <state relative-caret-position="255">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1129#1130#0" expanded="true" />
             <element signature="e#1211#1212#0" expanded="true" />
             <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1284#1285#0" expanded="true" />
             <element signature="e#1322#1323#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ufc/Tabuleiro.java">
+    <entry file="file://$PROJECT_DIR$/src/ufc/util/CircularArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ufc/TipoAcaoCasa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
           <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ufc/jogador/RepositorioPropriedades.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="180">
+          <caret line="12" column="47" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="47" />
           <folding>
             <element signature="e#178#179#0" expanded="true" />
             <element signature="e#226#227#0" expanded="true" />
@@ -474,108 +441,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ufc/Casas.java">
+    <entry file="file://$PROJECT_DIR$/src/ufc/jogador/Propriedade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="49" />
+        <state relative-caret-position="225">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding>
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ufc/carta/CartaSorte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ufc/carta/CartaReves.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="65" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="65" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#172#173#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ufc/carta/TipoCarta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ufc/Casa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ufc/carta/CartaFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/ufc/Casas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ufc/carta/Cartas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3214#3215#0" expanded="true" />
-            <element signature="e#3243#3244#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ufc/carta/Carta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="e#616#617#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ufc/TipoAcaoCasa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
           </folding>
         </state>
       </provider>

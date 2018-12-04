@@ -1,23 +1,19 @@
 package ufc.carta;
 
-public class Carta {
+public abstract class Carta {
 
-    private String nome;
     private String descricao;
     private double valor;
+    private TipoCarta tipoCarta;
 
-    public Carta(String nome, String descricao, double valor) {
-        this.nome = nome;
+    public Carta(TipoCarta tipoCarta, String descricao, double valor) {
+        this.tipoCarta = tipoCarta;
         this.descricao = descricao;
         this.valor = valor;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
+    public TipoCarta getTipoCarta() {
+        return tipoCarta;
     }
 
     public double getValor() {

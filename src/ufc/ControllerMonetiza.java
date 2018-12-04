@@ -3,7 +3,7 @@ package ufc;
 import ufc.carta.Carta;
 import ufc.jogador.Jogador;
 
-public class Monetiza implements IMonetiza {
+public class ControllerMonetiza implements IMonetiza {
 
     @Override
     public void atualizaDinheiro(Jogador jogador, Carta carta) {

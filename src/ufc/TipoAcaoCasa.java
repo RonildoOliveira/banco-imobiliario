@@ -24,9 +24,10 @@ public enum TipoAcaoCasa {
             System.out.println(carta.getDescricao());
 
             //executa instrucao da carta
-            Monetiza monetiza = new Monetiza();
-            monetiza.atualizaDinheiro(jogador, carta);
+            ControllerMonetiza controllerMonetiza = new ControllerMonetiza();
+            controllerMonetiza.atualizaDinheiro(jogador, carta);
 
+            atualizaPosicaoJogador(carta, jogador);
         }
     },
     IMOVEL {
@@ -52,4 +53,15 @@ public enum TipoAcaoCasa {
     };
 
     public abstract void getAcao(Jogador jogador);
+
+    public void atualizaPosicaoJogador(Carta carta, Jogador jogador){
+        switch (carta.getTipoCarta()){
+            case INICIO:
+                jogador.setPosicao(0);
+                break;
+            case PRISAO:
+                jogador.setPosicao(10);
+                break;
+        }
+    }
 }
