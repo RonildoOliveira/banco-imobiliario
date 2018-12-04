@@ -2,5 +2,11 @@ package ufc.carta;
 
 public enum TipoCarta {
 
-    SORTE, REVES, IMOVEL, VAZIA;
+    SORTE("Sorte"), REVES("Reves");
+
+    private String nomeTipoCarta;
+
+    TipoCarta(String nomeTipoCarta) {
+        this.nomeTipoCarta = nomeTipoCarta;
+    }
 }

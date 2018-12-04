@@ -1,11 +1,15 @@
 package ufc.carta;
 
-public abstract class Carta {
+public class Carta {
 
     private String nome;
+    private String descricao;
     private double valor;
 
-    public Carta() {
+    public Carta(String nome, String descricao, double valor) {
+        this.nome = nome;
+        this.descricao = descricao;
+        this.valor = valor;
     }
 
     public String getNome() {
@@ -22,5 +26,9 @@ public abstract class Carta {
 
     public void setValor(double valor) {
         this.valor = valor;
+    }
+
+    public String getDescricao() {
+        return descricao;
     }
 }
