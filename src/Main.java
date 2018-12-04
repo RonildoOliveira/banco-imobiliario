@@ -1,3 +1,4 @@
+import jplay.Window;
 import ufc.*;
 import ufc.carta.Carta;
 import ufc.jogador.Jogador;
@@ -27,6 +28,8 @@ public class Main {
 
         Casa casa = new Casa(TipoAcaoCasa.SORTE_REVES, 2);
         casa.getTipoAcaoCasa().getAcao(jogador1);
+
+        //Window window = new Window(800, 600);
 
     }
 }

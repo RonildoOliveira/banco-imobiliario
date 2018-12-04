@@ -5,6 +5,7 @@ public class Casa {
 
     private TipoAcaoCasa tipoAcaoCasa;
     private int posicao;
+    private boolean livre;
 
     public Casa(TipoAcaoCasa tipoAcaoCasa, int posicao) {
         this.tipoAcaoCasa = tipoAcaoCasa;
@@ -17,6 +18,14 @@ public class Casa {
 
     public int getPosicao() {
         return posicao;
+    }
+
+    public boolean isLivre() {
+        return livre;
+    }
+
+    public void setLivre(boolean livre) {
+        this.livre = livre;
     }
 
     //pode pegar carta
