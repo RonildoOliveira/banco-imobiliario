@@ -1,4 +1,4 @@
-package ufc;
+package ufc.carta;
 
 public abstract class Carta {
 

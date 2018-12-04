@@ -1,4 +1,7 @@
-package ufc;
+package ufc.jogador;
+
+import ufc.IObserver;
+import ufc.ISubject;
 
 import java.util.ArrayList;
 
@@ -6,15 +9,16 @@ public class Jogador implements ISubject {
 
     private ArrayList<IObserver> IObservers;
     private double dinheiro;
+    private int numeroDuplas;
 
     public Jogador() {
+        numeroDuplas = 0;
         IObservers = new ArrayList<>();
     }
 
     @Override
     public void register(IObserver IObserver) {
         IObservers.add(IObserver);
-
     }
 
     @Override
@@ -22,7 +26,6 @@ public class Jogador implements ISubject {
         int observerIndex = IObservers.indexOf(IObserver);
         IObservers.remove(observerIndex);
     }
-
 
     @Override
     public void notifyObserver() {

@@ -1,12 +1,12 @@
-package ufc;
+package ufc.carta;
 
 public class CartaFactory {
 
     public Carta criarCarta(TipoCarta tipoCarta){
         if(tipoCarta == TipoCarta.SORTE){
-            return new Sorte();
+            return new CartaSorte();
         }else{
-            return new Reves();
+            return new CartaReves();
         }
     }
 }

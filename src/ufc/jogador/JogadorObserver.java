@@ -1,4 +1,6 @@
-package ufc;
+package ufc.jogador;
+
+import ufc.IObserver;
 
 public class JogadorObserver implements IObserver {
 
